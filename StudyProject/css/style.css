@@ -1,0 +1,55 @@
+.content {
+  margin: auto;
+  width: 1000px;
+  border: 2px solid;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('fonts/GraphikLCG-Regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('fonts/GraphikLCG-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+.square-marker {
+  list-style-type: square;
+}
+
+.button-press {
+  color: #000;
+  background-color: rgba(240, 240, 240, 0.5);
+  padding: 18px 35px 18px 35px;
+  font-size: 20px;
+  border: 1px #3f2aff solid;
+  border-radius: 100px;
+}
+
+.download {
+  color: #000;
+  border: 3px #3f2aff;
+  border-bottom-style: solid;
+}
+
+body {
+  font-family: 'Graphik';
+}
+
+h1 a {
+  color: #3f2aff;
+  font-size: 72px;
+}
+
+a {
+  text-decoration: none;
+}
