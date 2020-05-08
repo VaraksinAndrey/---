@@ -50,6 +50,11 @@ p {
 	padding-left: 180px;
 }
 
+.learn-tags {
+	text-decoration: underline;
+	color: #2f1ce4;
+}
+
 .container {
 	margin: 0 auto;
 	width: 1170px;
@@ -69,13 +74,15 @@ p {
 .skillbox {
 	margin-bottom: 30px;
 	font-size: 35px;
+	font-weight: 500;
+	font-style: normal;
 }
 
 .title-index {
 	color: #fff;
 	font-family: 'Graphik LCG', sans-serif;
 	margin-bottom: 65px;
-	font-weight: normal;
+	font-weight: 500;
 	font-size: 40px;
 }
 
