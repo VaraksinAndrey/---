@@ -55,10 +55,20 @@ p {
 	color: #2f1ce4;
 }
 
-.container {
+.main-container {
+	/* удалить строку*/
+	background-color: lightblue;
 	margin: 0 auto;
-	width: 1170px;
-	padding-top: 30px;
+	width: 1920px;
+	color: #222020;
+}
+
+.container {
+	/* удалить строку*/
+	/* background-color: lightgray; */
+	margin: inherit;
+	width: 1180px;
+	padding-top: 55px;
 	padding-bottom: 30px;
 }
 
@@ -86,11 +96,14 @@ p {
 	font-size: 40px;
 }
 
-.title-program {
+.title-h1 {
 	margin-top: 100px;
+	margin-bottom: 80px;
 	padding-left: 100px;
+	font-weight: 800;
+	font-style: normal;
 	font-size: 48px;
-	color: #222020;
+	/* color: #222020; */
 }
 
 .title-h2 {
@@ -128,8 +141,10 @@ p {
 	background-image: url(../img/return.png);
 	background-position: center left;
 	background-size: contain;
-	padding-left: 40px;
 	background-repeat: no-repeat;
+	display: inline-block;
+	width: 100px;
+	text-align: right;
 }
 
 .list {
@@ -197,4 +212,38 @@ tfoot {
 	border-style: solid;
 	width: 250px;
 	text-align: center;
+}
+
+.module {
+	/* удалить строку*/
+	/* background-color: #e8e8e8; */
+	position: relative;
+	margin: 60px auto 0;
+	width: 1020px;
+	height: 505px;
+}
+
+.module-left, .module-right {
+	/* удалить строку*/
+	background-color: #e8e8e8;
+	display: inline-block;
+	position: absolute;
+	width: 480px;
+	height: 505px;
+	box-shadow: -3px 0px 24px 12px #e8e8e8;
+}
+
+.module-left {
+	left: 0px;
+}
+
+.module-right {
+	right: 0px;
+}
+
+.pictur {
+	/* удалить строку*/
+	background-color: #398b44;
+	width: 480px;
+	height: 180px;
 }
