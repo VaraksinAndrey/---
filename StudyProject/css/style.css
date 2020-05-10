@@ -57,7 +57,7 @@ p {
 
 .main-container {
 	/* удалить строку*/
-	background-color: lightblue;
+	/* background-color: lightblue; */
 	margin: 0 auto;
 	width: 1920px;
 	color: #222020;
@@ -65,7 +65,7 @@ p {
 
 .container {
 	/* удалить строку*/
-	/* background-color: lightgray; */
+	background-color: rgb(184, 144, 144);
 	margin: inherit;
 	width: 1180px;
 	padding-top: 55px;
@@ -82,8 +82,8 @@ p {
 }
 
 .skillbox {
-	margin-bottom: 30px;
-	font-size: 35px;
+	margin-bottom: 50px;
+	font-size: 40px;
 	font-weight: 500;
 	font-style: normal;
 }
@@ -144,6 +144,7 @@ p {
 	background-repeat: no-repeat;
 	display: inline-block;
 	width: 100px;
+	font-size: 18px;
 	text-align: right;
 }
 
@@ -230,7 +231,8 @@ tfoot {
 	position: absolute;
 	width: 480px;
 	height: 505px;
-	box-shadow: -3px 0px 24px 12px #e8e8e8;
+	box-shadow: -3px 1px 12px 5px #e8e8e8;
+	border-radius: 15px;
 }
 
 .module-left {
@@ -241,9 +243,46 @@ tfoot {
 	right: 0px;
 }
 
-.pictur {
+.picture {
 	/* удалить строку*/
-	background-color: #398b44;
-	width: 480px;
+	/* background-color: #398b44; */
+	width: inherit;
 	height: 180px;
+}
+
+.img-foreword {
+	margin-top: 4px;
+}
+
+.text-block {
+	background-color: #fff;
+	/* position: relative; */
+	width: inherit;
+	height: 325px;
+	overflow: hidden;
+}
+
+.title-text {
+	/* position: relative; */
+	margin: 25px 0;
+	padding-left: 52px;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 36px;
+	color: #2f1ce4;
+}
+
+.text-block p {
+	/* position: absolute; */
+	font-size: 16px;
+	padding-left: 52px;
+	margin-top: 20px;
+}
+
+.page-number {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	font-size: 48px;
+	color: #eaeaea;
 }
