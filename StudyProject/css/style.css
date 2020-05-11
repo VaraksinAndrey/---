@@ -56,20 +56,17 @@ p {
 }
 
 .main-container {
-	/* удалить строку*/
-	/* background-color: lightblue; */
 	margin: 0 auto;
 	width: 1920px;
 	color: #222020;
 }
 
 .container {
-	/* удалить строку*/
-	background-color: rgb(184, 144, 144);
-	margin: inherit;
+	margin: 0 auto;
 	width: 1180px;
 	padding-top: 55px;
 	padding-bottom: 30px;
+	color: #222020;
 }
 
 .main-content {
@@ -103,7 +100,6 @@ p {
 	font-weight: 800;
 	font-style: normal;
 	font-size: 48px;
-	/* color: #222020; */
 }
 
 .title-h2 {
@@ -137,7 +133,7 @@ p {
 	margin-top: 50px;
 }
 
-.return {
+.return, .forward {
 	background-image: url(../img/return.png);
 	background-position: center left;
 	background-size: contain;
@@ -146,6 +142,17 @@ p {
 	width: 100px;
 	font-size: 18px;
 	text-align: right;
+}
+
+.forward {
+	transform: scaleX(-1);
+	text-align: left;
+	position: relative;
+	margin-left: 50px;
+}
+
+.forward .text {
+	transform: scaleX(-1);
 }
 
 .list {
@@ -190,6 +197,7 @@ td {
 tfoot {
 	text-align: center;
 	font-weight: bold;
+	color: #2f1ce4;
 }
 
 .download {
@@ -216,8 +224,6 @@ tfoot {
 }
 
 .module {
-	/* удалить строку*/
-	/* background-color: #e8e8e8; */
 	position: relative;
 	margin: 60px auto 0;
 	width: 1020px;
@@ -225,14 +231,13 @@ tfoot {
 }
 
 .module-left, .module-right {
-	/* удалить строку*/
 	background-color: #e8e8e8;
 	display: inline-block;
 	position: absolute;
 	width: 480px;
 	height: 505px;
-	box-shadow: -3px 1px 12px 5px #e8e8e8;
-	border-radius: 15px;
+	box-shadow: -3px 1px 10px 8px #e8e8e8;
+	border-radius: 9px;
 }
 
 .module-left {
@@ -244,8 +249,6 @@ tfoot {
 }
 
 .picture {
-	/* удалить строку*/
-	/* background-color: #398b44; */
 	width: inherit;
 	height: 180px;
 }
@@ -256,14 +259,12 @@ tfoot {
 
 .text-block {
 	background-color: #fff;
-	/* position: relative; */
 	width: inherit;
 	height: 325px;
 	overflow: hidden;
 }
 
 .title-text {
-	/* position: relative; */
 	margin: 25px 0;
 	padding-left: 52px;
 	font-weight: 800;
@@ -273,7 +274,6 @@ tfoot {
 }
 
 .text-block p {
-	/* position: absolute; */
 	font-size: 16px;
 	padding-left: 52px;
 	margin-top: 20px;
@@ -285,4 +285,23 @@ tfoot {
 	bottom: 20px;
 	font-size: 48px;
 	color: #eaeaea;
+}
+
+.button-more {
+	margin: 100px auto 0;
+	display: block;
+	width: 280px;
+	height: 80px;
+	border: #2f1ce4 3px solid;
+	color: #2f1ce4;
+	font-family: inherit;
+	font-size: 18px;
+}
+
+.figure-blue {
+	background-image: url(../img/blue-figure.png);
+	background-repeat: no-repeat;
+	padding-bottom: 1010px;
+	margin: -410px auto 0;
+	width: 1920px;
 }
