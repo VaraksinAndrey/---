@@ -1,0 +1,232 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.woff') format('woff');
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Muller;
+	src: url('../fonts/MullerLight.woff') format('woff');
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Muller;
+	src: url('../fonts/MullerRegular.woff') format('woff');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Muller;
+	src: url('../fonts/MullerMedium.woff') format('woff');
+	font-weight: 500;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Muller;
+	src: url('../fonts/MullerBold.woff') format('woff');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-family: Muller, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	color: #333;
+	background-color: #f1f1f1;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+.container {
+	max-width: 1168px;
+	margin: 0 auto;
+}
+
+.section-title {
+	font-size: 40px;
+	font-weight: 400;
+	margin-left: 45px;
+	margin-bottom: 20px;
+	line-height: 1;
+}
+
+.btn {
+	padding: 14px;
+	border: 1px solid #cc9933;
+	border-radius: 12px;
+	font-size: 16px;
+	line-height: 32px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.header {
+	display: flex;
+	/* height: 154px; */
+	/* line-height: 1; */
+}
+
+.header-container {
+	width: 100%;
+}
+
+.heder-caption {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.header-logo-img {
+	display: block;
+}
+
+.header-phone {
+	margin-left: 25px;
+	font-weight: 700;
+	font-size: 22px;
+	color: #666;
+}
+
+.header-login {
+	margin-left: 545px;
+	color: #cc9933;
+}
+
+.header-login-arrow {
+	font-family: FontAwesome;
+}
+
+.header-nav {
+	position: relative;
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	background-color: #fff;
+	height: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid #fff;
+	border-radius: 12px;
+}
+
+.header-list {
+	display: flex;
+}
+
+.header-list-item:not(:last-child) {
+	margin-right: 45px;
+}
+
+.header-search {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	right: 20px;
+}
+
+.header-search-text {
+	width: 355px;
+	height: 48px;
+	background-color: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	border-radius: 15px;
+	padding-left: 21px;
+	padding-right: 45px;
+}
+
+.header-search-text::placeholder {
+	color: #bebebe;
+}
+
+.header-search-btn {
+	position: absolute;
+	background: url(../img/search.png);
+	border: 0;
+	right: 22px;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+}
+
+.main-container {
+	display: flex;
+	margin-top: 72px;
+	outline: 1px solid red;
+}
+
+.reservation {
+	width: 49%;
+	outline: 1px solid red;
+}
+
+.reservation-item {
+	/* display: flex; */
+}
+
+.reservation-item-input {
+	width: 518px;
+	height: 70px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 12px;
+	margin-bottom: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.reservation-item-input::placeholder {
+	color: #999;
+}
+
+.reservation-btn {
+	padding: 18px 30px;
+	background-color: #cc9933;
+	color: #fff;
+}
+
+.reservation-offer {
+	display: inline-block;
+	margin-left: 30px;
+	color: #999;
+}
+
+.reservation-count {
+	color: #cc9933;
+}
+
+
+
+.special {
+	width: 51%;
+	outline: 1px solid red;
+}
