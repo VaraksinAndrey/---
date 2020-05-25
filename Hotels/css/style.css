@@ -84,6 +84,7 @@ ul {
 	border: 1px solid #cc9933;
 	border-radius: 12px;
 	font-size: 16px;
+	font-weight: 700;
 	line-height: 32px;
 	cursor: pointer;
 	user-select: none;
@@ -181,16 +182,10 @@ ul {
 .main-container {
 	display: flex;
 	margin-top: 72px;
-	outline: 1px solid red;
 }
 
 .reservation {
 	width: 49%;
-	outline: 1px solid red;
-}
-
-.reservation-item {
-	/* display: flex; */
 }
 
 .reservation-item-input {
@@ -224,9 +219,123 @@ ul {
 	color: #cc9933;
 }
 
-
-
 .special {
 	width: 51%;
+}
+
+.special-container {
+	position: relative;
+	width: 595px;
+	height: 540px;
+	background: url(../img/luxe5000.png) no-repeat;
+}
+
+.special-desc {
+	position: absolute;
+	margin: 266px 230px 40px 45px;
+}
+
+.special-caption {
+	font-size: 66px;
+	font-weight: 700;
+	line-height: 58px;
+	color: #fff;
+}
+
+.special-text {
+	display: flex;
+	align-items: baseline;
+	margin-top: 40px;
+}
+
+.special-text-price {
+	font-size: 35px;
+	color: #a4a3a3;
+}
+
+.special-text-link {
+	display: flex;
+	align-items: center;
+	margin-left: 38px;
+	color: #ffcc66;
+}
+
+.special-text-img {
+	margin-left: 6px;
+}
+
+.about {
+	margin-top: 70px;
+}
+
+.about-text {
+	padding-left: 45px;
+	padding-right: 240px;
+	color: #666;
+}
+
+.services {
+	margin-top: 61px;
+}
+
+.services-container {
 	outline: 1px solid red;
+}
+
+.services-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.services-item {
+	position: relative;
+	display: flex;
+	/* flex-direction: column; */
+	align-items: flex-end;
+	width: 572px;
+	height: 325px;
+	background-color: #fff;
+	/* border: 1px solid #fff; */
+	border-radius: 12px;
+	margin-bottom: 24px;
+	padding-left: 45px;
+	padding-right: 105px;
+	/* outline: 1px solid red; */
+}
+
+/* .services-item-wine {
+	background-image: url(../img/wineglass.jpg);
+	background-repeat: no-repeat;
+} */
+
+.services-item-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* align-self: flex-start; */
+}
+
+.services-desc {
+	margin-bottom: 35px;
+}
+
+.services-desc-link {
+	display: flex;
+	align-items: center;
+}
+
+.services-desc-title {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 32px;
+	color: #cc9933;
+}
+
+.services-desc-img {
+	margin-left: 12px;
+}
+
+.services-desc-text {
+	padding-right: 15px;
 }
