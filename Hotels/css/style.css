@@ -75,8 +75,14 @@ ul {
 	font-size: 40px;
 	font-weight: 400;
 	margin-left: 45px;
-	margin-bottom: 20px;
+	margin-bottom: 22px;
 	line-height: 1;
+}
+
+.h3-title {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 32px;
 }
 
 .btn {
@@ -92,8 +98,6 @@ ul {
 
 .header {
 	display: flex;
-	/* height: 154px; */
-	/* line-height: 1; */
 }
 
 .header-container {
@@ -131,7 +135,6 @@ ul {
 	position: relative;
 	display: flex;
 	align-items: center;
-	/* justify-content: space-between; */
 	background-color: #fff;
 	height: 70px;
 	padding-left: 20px;
@@ -254,7 +257,7 @@ ul {
 }
 
 .special-text-link {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	margin-left: 38px;
 	color: #ffcc66;
@@ -278,11 +281,7 @@ ul {
 	margin-top: 61px;
 }
 
-.services-container {
-	outline: 1px solid red;
-}
-
-.services-list{
+.services-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -291,29 +290,20 @@ ul {
 .services-item {
 	position: relative;
 	display: flex;
-	/* flex-direction: column; */
 	align-items: flex-end;
 	width: 572px;
 	height: 325px;
 	background-color: #fff;
-	/* border: 1px solid #fff; */
 	border-radius: 12px;
 	margin-bottom: 24px;
 	padding-left: 45px;
 	padding-right: 105px;
-	/* outline: 1px solid red; */
 }
-
-/* .services-item-wine {
-	background-image: url(../img/wineglass.jpg);
-	background-repeat: no-repeat;
-} */
 
 .services-item-img {
 	position: absolute;
 	top: 0;
 	left: 0;
-	/* align-self: flex-start; */
 }
 
 .services-desc {
@@ -321,14 +311,11 @@ ul {
 }
 
 .services-desc-link {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 }
 
 .services-desc-title {
-	font-size: 22px;
-	font-weight: 500;
-	line-height: 32px;
 	color: #cc9933;
 }
 
@@ -338,4 +325,108 @@ ul {
 
 .services-desc-text {
 	padding-right: 15px;
+}
+
+.advantages {
+	margin-top: 46px;
+}
+
+.advantages-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.advantages-item {
+	width: 275px;
+	height: 275px;
+	background-color: #fff;
+	border-radius: 12px;
+	margin-bottom: 24px;
+	padding-left: 44px;
+	padding-right: 44px;
+	padding-top: 44px;
+}
+
+.placing {
+	margin-top: 46px;
+}
+
+.placing-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.placing-item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 373px;
+	height: 441px;
+	background-color: #fff;
+	border-radius: 12px;
+	margin-bottom: 25px;
+	padding-left: 44px;
+	padding-right: 44px;
+	padding-bottom: 43px;
+}
+
+.placing-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.placing-text {
+	margin-bottom: 17px;
+}
+
+.placing-text-first-line {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-price-grey {
+	color: #969696;
+}
+
+.text-price-bold {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.placing-star-img {
+	margin-left: 3px;
+}
+
+.placing-text-location {
+	color: #999;
+}
+
+.placing-btn {
+	padding: 0;
+	width: 100px;
+	height: 41px;
+	background-color: #fff;
+	color: #cc9933;
+}
+
+.placing-item:last-child {
+	background: url(../img/hotel-all.png) no-repeat;
+	padding-left: 38px;
+	padding: 37px;
+}
+
+.placing-last-link {
+	display: flex;
+}
+
+.placing-last-link-title {
+	color: #fff;
+}
+
+.placing-last-link-img {
+	margin-left: 14px;
 }
