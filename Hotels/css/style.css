@@ -55,6 +55,7 @@ html, body {
 
 a {
 	text-decoration: none;
+	color: #cc9933;
 }
 
 img {
@@ -130,7 +131,6 @@ ul {
 
 .header-login {
 	margin-left: 545px;
-	color: #cc9933;
 }
 
 .header-login-arrow {
@@ -197,7 +197,7 @@ ul {
 	width: 49%;
 }
 
-.reservation-item-input {
+.reservation-input {
 	width: 518px;
 	height: 70px;
 	background-color: #fff;
@@ -207,10 +207,6 @@ ul {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
-/* .reservation-item-input::placeholder {
-	color: #999;
-} */
 
 .reservation-btn {
 	padding: 18px 30px;
@@ -471,12 +467,16 @@ ul {
 	width: 230px;
 }
 
-.contacts-item-link {
+/* .contacts-item-link {
 	color: #cc9933;
+} */
+
+.address {
+	font-style: normal;
 }
 
-.item-address {
-	font-style: normal;
+.link-contact {
+	display: block;
 }
 
 .contacts-btn {
@@ -487,14 +487,9 @@ ul {
 	padding-right: 30px;
 }
 
-
 .write {
 	margin: 178px auto 0;
 	width: 340px;
-}
-
-.write-form {
-	/* display: flex; */
 }
 
 .write-title {
@@ -529,4 +524,60 @@ ul {
 	height: 70px;
 	color: #fff;
 	background-color: #cc9933;
+}
+
+.footer {
+	color: #fff;
+	font-weight: 400;
+}
+
+.footer-container {
+	position: relative;
+	margin-top: 22px;
+	margin-bottom: 52px;
+	border: 1px solid #333;
+	border-radius: 12px;
+	background-color: #333;
+	height: 338px;
+	padding: 48px 52px;
+	display: flex;
+}
+
+.footer-left {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer-center {
+	width: 360px;
+	margin-left: 120px;
+	line-height: 24px;
+}
+
+.footer-phone {
+	margin-top: 40px;
+}
+
+.footer-mail {
+	margin-top: 30px;
+}
+
+.footer-right {
+	margin-left: auto;
+}
+
+.footer-item {
+	margin-bottom: 21px;
+}
+
+.footer-item-icon {
+	display: block;
+}
+
+.footer-logo {
+	position: absolute;
+	right: 176px;
+	bottom: 0;
 }
