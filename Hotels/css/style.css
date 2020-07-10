@@ -286,7 +286,6 @@ ul {
 .services-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .services-item {
@@ -300,6 +299,10 @@ ul {
 	margin-bottom: 24px;
 	padding-left: 45px;
 	padding-right: 105px;
+}
+
+.services-item:nth-child(2n) {
+	margin-left: 24px;
 }
 
 .services-item-img {
@@ -336,7 +339,6 @@ ul {
 .advantages-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .advantages-item {
@@ -350,6 +352,14 @@ ul {
 	padding-top: 44px;
 }
 
+.advantages-item:nth-child(2n) {
+	margin-left: 23px;
+}
+
+.advantages-item:nth-child(4n+3) {
+	margin-left: 22px;
+}
+
 .placing {
 	margin-top: 46px;
 }
@@ -357,7 +367,6 @@ ul {
 .placing-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .placing-item {
@@ -375,6 +384,14 @@ ul {
 	padding-bottom: 43px;
 }
 
+.placing-item:nth-child(3n+2) {
+	margin-left: 25px;
+}
+
+.placing-item:nth-child(3n) {
+	margin-left: 24px;
+}
+
 .placing-img {
 	position: absolute;
 	top: 0;
@@ -387,7 +404,11 @@ ul {
 
 .placing-text-first-line {
 	display: flex;
-	justify-content: space-between;
+}
+
+.placing-text-first-line>:last-child {
+    position: absolute;
+    right: 44px;
 }
 
 .text-price-grey {
@@ -547,7 +568,10 @@ ul {
 	width: 300px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+}
+
+.footer-left> :not(:last-child) {
+	margin-bottom: 29px;
 }
 
 .footer-center {
