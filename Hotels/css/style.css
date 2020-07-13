@@ -56,6 +56,15 @@ html, body {
 a {
 	text-decoration: none;
 	color: #cc9933;
+	background: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size .3s;
+}
+
+a:not(.header-logo):hover {
+	background-size: 100% 2px;
 }
 
 img {
@@ -92,7 +101,7 @@ ul {
 
 .btn {
 	padding: 14px;
-	border: 1px solid #cc9933;
+	border: 1px solid rgb(204, 153, 51);
 	border-radius: 12px;
 	font-family: Muller, sans-serif;
 	font-weight: 700;
@@ -101,6 +110,23 @@ ul {
 	line-height: 32px;
 	cursor: pointer;
 	user-select: none;
+	position: relative;
+	transition: background-color 1s, color 1s ease;
+}
+
+.btn:hover {
+	color: #fff;
+	background-color: #cc9933;
+}
+
+.btn:active {
+	transform: scale(0.9);
+	/* transform: translate(3px, 3px); */
+}
+
+.reservation-btn:hover, .write-btn:hover {
+	color: #cc9933;
+	background-color: #fff;
 }
 
 .header {
@@ -407,8 +433,8 @@ ul {
 }
 
 .placing-text-first-line>:last-child {
-    position: absolute;
-    right: 44px;
+	position: absolute;
+	right: 44px;
 }
 
 .text-price-grey {
@@ -444,10 +470,16 @@ ul {
 
 .placing-last-link {
 	display: flex;
+	color: #fff;
 }
 
-.placing-last-link-title {
-	color: #fff;
+.placing-last-link::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }
 
 .placing-last-link-img {
@@ -488,16 +520,8 @@ ul {
 	width: 230px;
 }
 
-/* .contacts-item-link {
-	color: #cc9933;
-} */
-
 .address {
 	font-style: normal;
-}
-
-.link-contact {
-	display: block;
 }
 
 .contacts-btn {
