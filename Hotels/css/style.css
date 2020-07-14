@@ -63,7 +63,7 @@ a {
 	transition: background-size .3s;
 }
 
-a:not(.header-logo):hover {
+a:not(.header-logo):not(.footer-social):hover {
 	background-size: 100% 2px;
 }
 
@@ -618,6 +618,8 @@ ul {
 
 .footer-item {
 	margin-bottom: 21px;
+	width: 25px;
+	height: 25px;
 }
 
 .footer-item-icon {
@@ -628,4 +630,30 @@ ul {
 	position: absolute;
 	right: 176px;
 	bottom: 0;
+}
+
+.footer-social {
+	display: block;
+	background-size: auto;
+	height: 25px;
+}
+
+.footer-tripadvisor {
+	background-image: url(../img/tripadvisor.png);
+}
+
+.footer-twitter {
+	background-image: url(../img/twitter.png);
+}
+
+.footer-facebook {
+	background-image: url(../img/facebook.png);
+}
+
+.footer-vk {
+	background-image: url(../img/vk.png);
+}
+
+.footer-google-plus {
+	background-image: url(../img/google-plus.png);
 }
