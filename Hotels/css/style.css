@@ -80,11 +80,6 @@ ul {
 	color: #999;
 }
 
-.container {
-	max-width: 1168px;
-	margin: 0 auto;
-}
-
 .section-title {
 	font-size: 40px;
 	font-weight: 400;
@@ -121,20 +116,11 @@ ul {
 
 .btn:active {
 	transform: scale(0.9);
-	/* transform: translate(3px, 3px); */
 }
 
 .reservation-btn:hover, .write-btn:hover {
 	color: #cc9933;
 	background-color: #fff;
-}
-
-.header {
-	display: flex;
-}
-
-.header-container {
-	width: 100%;
 }
 
 .heder-caption {
@@ -309,11 +295,6 @@ ul {
 	margin-top: 61px;
 }
 
-.services-list {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .services-item {
 	position: relative;
 	display: flex;
@@ -325,10 +306,6 @@ ul {
 	margin-bottom: 24px;
 	padding-left: 45px;
 	padding-right: 105px;
-}
-
-.services-item:nth-child(2n) {
-	margin-left: 24px;
 }
 
 .services-item-img {
@@ -362,11 +339,6 @@ ul {
 	margin-top: 46px;
 }
 
-.advantages-list {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .advantages-item {
 	width: 275px;
 	height: 275px;
@@ -390,11 +362,6 @@ ul {
 	margin-top: 46px;
 }
 
-.placing-list {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .placing-item {
 	position: relative;
 	display: flex;
@@ -408,14 +375,6 @@ ul {
 	padding-left: 44px;
 	padding-right: 44px;
 	padding-bottom: 43px;
-}
-
-.placing-item:nth-child(3n+2) {
-	margin-left: 25px;
-}
-
-.placing-item:nth-child(3n) {
-	margin-left: 24px;
 }
 
 .placing-img {
@@ -462,7 +421,7 @@ ul {
 	color: #cc9933;
 }
 
-.placing-item:last-child {
+.col-lg-4:last-child > .placing-item {
 	background: url(../img/hotel-all.png) no-repeat;
 	padding-left: 38px;
 	padding: 37px;
@@ -600,7 +559,7 @@ ul {
 
 .footer-center {
 	width: 360px;
-	margin-left: 120px;
+	margin-left: 135px;
 	line-height: 24px;
 }
 
