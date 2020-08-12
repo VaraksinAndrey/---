@@ -61,13 +61,12 @@ html, body {
 	background-color: #E5E5E5;
 }
 
-.container {
-	max-width: 1770px;
+.main, .container {
+	max-width: 1920px;
 	margin: 0 auto;
 }
 
 .header {
-  max-width: 1920px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
@@ -90,6 +89,62 @@ html, body {
   margin-top: 6px;
 }
 
+.header__item:nth-last-child(2) {
+  margin-left: 72px;
+}
+
+.header__item:nth-child(2) {
+  margin-left: 72px;
+}
+
 .header__item_width_wide{
-  padding: 0 29px;
+  padding: 0 28px;
+}
+
+.main {
+  padding-top: 1px;
+  padding-left: 75px;
+  padding-right: 75px;
+  background: linear-gradient(#f0f0f0, #fff 135px);
+}
+
+.general {
+  height: 620px;
+  background-image: url(../img/low-angle-photo-of-balconies.jpg);
+  background-repeat: no-repeat;
+}
+
+.general__content {
+  width: 55%;
+  padding-left: 78px;
+  color: #fff;
+}
+
+.general-content__title {
+  display: block;
+  font-weight: 800;
+  font-size: 70.3742px;
+  line-height: 86px;
+  padding-top: 104px;
+}
+
+.general-content__desc {
+  padding-top: 18px;
+  font-weight: 700;
+  font-size: 23.49px;
+  line-height: 29px;
+}
+
+.general-content__button {
+  width: 280px;
+  height: 80px;
+  margin-top: 97px;
+  margin-left: 3px;
+  padding-top: 3px;
+  color: #fff;
+  background-color: #FF9900;
+  border: none;
+  font-weight: 700;
+  font-size: 25.7px;
+  line-height: 29px;
 }
