@@ -5,20 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" href="css/style.css">
   <title>Evklid</title>
 </head>
 
 <body>
   <header class="header container">
-    <img class="header__logo" src="" alt="logo">
+    <img class="header__logo" src="img/logo-header.svg" alt="logo">
     <nav class="header__nav">
       <a class="link header__item">О нас</a>
       <a class="link header__item">Проекты</a>
-      <a class="link header__item">Этапы</a>
+      <a class="link header__item header__item_width_wide">Этапы</a>
       <a class="link header__item">Отзывы</a>
       <a class="link header__item">Контакты</a>
+      <img class="header__search header__item" src="img/search.svg" alt="#">
     </nav>
-    <img class="header__search" src="" alt="#">
   </header>
 
   <section class="main container">
@@ -62,7 +63,7 @@
       Как мы работаем
     </h2>
     <ul class="work__list">
-      <li class="link work__item work__item--active">1 шаг</li>
+      <li class="link work__item work__item_active">1 шаг</li>
       <li class="link work__item">2 шаг</li>
       <li class="link work__item">3 шаг</li>
       <li class="link work__item">4 шаг</li>
@@ -77,10 +78,10 @@
       с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати,
       стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности
       картины в целом, однако конкретные выводы, разумеется, призваны к ответу.</p>
-    <button class="work__btn btn btn--yellow">
+    <button class="work__btn btn btn_yellow">
       Подробнее
     </button>
-    <button class="work__btn btn btn--white">
+    <button class="work__btn btn btn_white">
       Договор
     </button>
     <img class="work__img" src="" alt="workplace">
@@ -147,7 +148,7 @@
         <input class="form__input" type="text" placeholder="Фамилия, имя и отчество*">
         <input class="form__input" type="email" placeholder="E-mail*">
         <input class="form__input" type="text" placeholder="Сообщение">
-        <input class="form__button btn btn--yellow" type="button" value="Отправить данные">
+        <input class="form__button btn btn_yellow" type="button" value="Отправить данные">
         <label class="form__label">
           <input class="form__checkbox" type="checkbox" name="consent" checked>
           Согласен на обработу данных
