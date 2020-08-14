@@ -1,5 +1,21 @@
 @font-face {
   font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Thin.woff') format('woff');
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
   src: url('../fonts/Montserrat-Light.woff') format('woff');
   font-weight: 300;
   font-display: swap;
@@ -394,4 +410,135 @@ ul {
 
 .questions-item:nth-last-child(4) .questions-item__border {
   bottom: -1px;
+}
+
+.footer {
+  height: 630px;
+  background-color: #222;
+  padding-top: 48px;
+  padding-left: 75px;
+  padding-right: 94px;
+  padding-bottom: 80px;
+  display: flex;
+  /* flex-flow: column wrap; */
+  color: #cacaca;
+
+  margin-bottom: 50px;
+}
+
+.footer-left {
+  width: 355px;
+}
+
+.footer-left__text {
+  line-height: 32px;
+  margin-top: 2px;
+}
+
+.footer-left__list {
+  display: flex;
+  margin-top: 43px;
+}
+
+.footer-left__item:first-child {
+  margin-left: -1px;
+}
+
+.footer-left__item {
+  margin-right: 25px;
+}
+
+.footer__center {
+  width: 570px;
+  margin-left: 245px;
+  margin-top: 10px;
+}
+
+.form__title {
+  margin-left: -2px;
+}
+
+.form__input {
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #414141;
+  margin-bottom: 25px;
+  padding-top: 3px;
+  padding-left: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #cacaca;
+}
+
+.form__input_fio {
+  margin-top: 22px;
+}
+
+.form__message {
+  height: 150px;
+  padding-top: 15px;
+  resize: none;
+}
+
+.form__foter {
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__button {
+  background-color: #ff9900;
+  color: #fff;
+  border: solid 1px #ff9900;
+  padding: 20px 52px 18px 51px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form__label {
+  margin-left: 20px;
+  padding-right: 1px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+
+.form__checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 14px;
+  height: 14px;
+  border: solid 1px #cacaca;
+  margin-top: 2px;
+}
+
+.form__checkbox:checked {
+  background: url(/img/checked.png) center center no-repeat;
+}
+
+.item_outline_none:focus {
+  outline: 0;
+  /* outline-offset: 0; */
+}
+
+.footer__right {
+  width: 251px;
+  margin-left: auto;
+  margin-top: auto;
+  padding-bottom: 113px;
+}
+
+.footer-nav {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.footer-nav__link {
+  display: block;
+  margin-top: 14px;
 }
