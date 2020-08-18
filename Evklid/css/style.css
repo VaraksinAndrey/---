@@ -182,10 +182,11 @@ ul {
   height: 620px;
   background-image: url(../img/low-angle-photo-of-balconies.jpg);
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .general__content {
-  width: 55%;
+  width: 896px;
   padding-left: 78px;
   color: #fff;
 }
@@ -211,8 +212,9 @@ ul {
   margin-top: 95px;
   margin-left: 3px;
   padding-top: 3px;
+  font-family: Montserrat;
   font-weight: 700;
-  font-size: 25.7px;
+  font-size: 23.4581px;
   line-height: 29px;
 }
 
@@ -621,12 +623,44 @@ ul {
   background-image: url(../img/logo-header.svg);
 }
 
+.general__bullets {
+  position: absolute;
+  bottom: 30px;
+  margin-left: 420px;
+  display: none;
+}
+
+.general-bullets__item {
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: solid 1px transparent;
+  border-radius: 7px;
+}
+
+.general-bullets__item_active {
+  background-color: #fff;
+}
+
+.general-bullets__item:hover {
+  cursor: pointer;
+  border-color: #fff;
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .header {
     padding-left: 50px;
     padding-right: 50px;
     font-size: 16px;
     line-height: 20px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .main {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .header__logo {
@@ -662,6 +696,41 @@ ul {
 
   .header__burger {
     display: block;
+  }
+
+  .general {
+    margin-top: -101px;
+    height: 768px;
+    background-image: url(../img/low-angle-photo-of-balconies-1024.jpg);
+  }
+
+  .general__content {
+    width: 742px;
+    padding-left: 45px;
+}
+  .general-content__title {
+    padding-top: 260px;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .general-content__desc {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .general-content__btn {
+    width: 287px;
+    margin-top: 110px;
+    margin-left: 0;
+    padding-top: 1px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .general__bullets {
+    display: flex;
   }
 
 }
