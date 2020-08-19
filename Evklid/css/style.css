@@ -127,8 +127,6 @@ ul {
 .header__nav {
   display: flex;
   height: 50%;
-  /* align-items: center;
-  align-items: center; */
 }
 
 .header__item {
@@ -162,7 +160,6 @@ ul {
   width: 26px;
   height: 26px;
   margin-top: 15px;
-  /* margin-left: 71px; */
 }
 
 .header__search:hover {
@@ -342,7 +339,7 @@ ul {
 }
 
 .work {
-  margin-top: 124px;
+  margin-top: 125px;
   margin-left: 2px;
 }
 
@@ -352,17 +349,19 @@ ul {
 
 .work__content {
   display: flex;
-  flex-flow: column wrap;
-  height: 580px;
+  justify-content: space-between;
+  padding-top: 46px;
 }
 
 .work__list {
   display: flex;
-  margin-top: 48px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 47px;
+  width: 469px;
 }
 
 .work__item {
-  margin-right: 90px;
   font-size: 18px;
   font-weight: 300;
   line-height: 22px;
@@ -373,7 +372,6 @@ ul {
 }
 
 .work-desc__title {
-  margin-top: 46px;
 }
 
 .work-desc__text {
@@ -405,12 +403,15 @@ ul {
 }
 
 .work__img {
-  margin-top: 126px;
-  margin-left: 142px;
+  width: 870px;
+  height: 465px;
+  background-image: url(../img/workplace.jpg);
+  margin-right: -2px;
+  margin-top: 10px;
 }
 
 .questions {
-  margin-top: 97px;
+  margin-top: 86px;
 }
 
 .questions__title {
@@ -801,5 +802,62 @@ ul {
 
   .about-item:last-child .about-item__content {
     margin-left: 69px;
+  }
+
+  .work {
+    margin-top: 60px;
+  }
+
+  .work__title {
+    margin-left: -8px;
+  }
+
+  .work__list {
+    margin-top: 36px;
+    margin-left: -3px;
+    height: 40px;
+    border-top: solid #cacaca;
+  }
+
+  .work__content {
+    padding-top: 39px;
+    margin-left: -2px;
+  }
+
+  .work__item {
+    border-top: solid #cacaca;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+    padding-top: 5px;
+    margin-left: 1px;
+  }
+
+  .work__item_active {
+    border-color: #ff9900;
+  }
+
+  .work__desc {
+    width: 47.3%;
+  }
+
+  .work-desc__btn {
+    margin-top: 50px;
+  }
+
+  .work-desc__btn-left {
+    padding-left: 37px;
+  }
+
+  .work-desc__text {
+    width: auto;
+  }
+
+  .work__img {
+    width: 437px;
+    height: 689px;
+    background-image: url(../img/workplace-1024.png);
+    margin-right: 0;
   }
 }
