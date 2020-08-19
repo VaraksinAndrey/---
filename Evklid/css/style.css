@@ -442,6 +442,10 @@ ul {
   cursor: pointer;
 }
 
+.questions__item {
+  position: relative;
+}
+
 .questions-item:nth-last-child(-n+2) .questions__control {
   margin-top: -8px;
 }
@@ -488,8 +492,6 @@ ul {
   display: flex;
   /* flex-flow: column wrap; */
   color: #cacaca;
-
-  margin-bottom: 50px;
 }
 
 .footer-left {
@@ -595,6 +597,27 @@ ul {
   padding-bottom: 113px;
 }
 
+
+.footer-right__logo {
+  display: none;
+  width: 224px;
+  height: 72px;
+  background-image: url(../img/logo-footer.png);
+}
+
+.footer-right__list {
+  display: none;
+  margin-top: 24px;
+}
+
+.footer-right__item:first-child {
+  margin-left: -1px;
+}
+
+.footer-right__item {
+  margin-right: 25px;
+}
+
 .footer-nav {
   font-weight: 600;
   font-size: 18px;
@@ -605,6 +628,11 @@ ul {
   display: block;
   margin-top: 14px;
 }
+
+.footer-nav__link:nth-last-child(2)::after {
+  content: "Конфиденциальность";
+}
+
 
 .link:hover,  .link:hover .questions-item__slash_grey{
   color: #ff9900;
@@ -667,6 +695,7 @@ ul {
   .main {
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 85px;
   }
 
   .header__logo {
@@ -879,10 +908,6 @@ ul {
     padding-bottom: 28px;
   }
 
-  .questions__item {
-    position: relative;
-  }
-
   .questions-item {
     margin-top: 22px;
   }
@@ -939,6 +964,62 @@ ul {
 
   .questions-item:nth-child(6) .questions__control {
     margin-top: -6px;
+  }
+
+  .main {
+    padding-bottom: 57px;
+  }
+
+  .footer {
+    height: 630px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .footer__left {
+    display: none;
+  }
+
+  .footer__center {
+    margin: 0;
+    padding-top: 10px;
+    width: 534px;
+  }
+
+  .form__title {
+    margin-left: -3px;
+  }
+
+  .form__btn {
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+
+  .form__label {
+    margin-right: -1px;
+  }
+
+  .footer__right {
+    margin-left: 73px;
+    margin-top: 0px;
+    width: 315px;
+  }
+
+  .footer-right__logo {
+    display: block;
+  }
+
+  .footer-nav {
+    line-height: 36px;
+    margin-top: -4px;
+  }
+
+  .footer-nav__link:nth-last-child(2)::after {
+    content: "Политика конфиденциальности";
+  }
+
+  .footer-right__list {
+    display: flex;
   }
 
 }
