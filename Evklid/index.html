@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Evklid</title>
+</head>
+
+<body>
+  <header class="header container">
+    <div class="header__logo"></div>
+    <div class="header__menu">
+      <nav class="header__nav">
+        <a href="#" class="link header__item">О нас</a>
+        <a href="#" class="link header__item">Проекты</a>
+        <a href="#" class="link header__item">Этапы</a>
+        <a href="#" class="link header__item">Отзывы</a>
+        <a href="#" class="link header__item">Контакты</a>
+      </nav>
+      <a href="#" class="header__search header__search_orange"></a>
+      <div class="header__burger">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="general">
+      <div class="general__content general-content">
+        <h1 class="general-content__title">Проектные решения любой сложности</h1>
+        <p class="general-content__desc">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день
+          остаются
+          уделом проектантов</p>
+        <button class="button general-content__btn btn_orange">Заказать расчёт</button>
+      </div>
+      <div class="general__bullets general-bullets">
+        <div class="general-bullets__item general-bullets__item_active"></div>
+        <div class="general-bullets__item"></div>
+        <div class="general-bullets__item"></div>
+      </div>
+    </section>
+
+    <section class="about container">
+      <h2 class="about__title h2-title">О нас</h2>
+      <p class="about__text about-text">Также как перспективное планирование создаёт необходимость включения в
+        производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей
+        масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены
+        отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и
+        внешне зависимых концептуальных решений! Следует отметить, что высококачественный
+        <span class="about-text__icon">прототип</span> будущего проекта предопределяет высокую востребованность
+        позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что
+        высококачественный прототип будущего проекта способствует повышению качества экспериментов.
+      </p>
+      <div class="about__content about-content">
+        <div class="about-content__aside about-content-aside">
+          <div class="about-content-aside__img"></div>
+          <div class="about-content-aside__footer aside-footer">
+            <p class="aside-footer__desc">Принимая во внимание показатели успешности, перспективное планирование
+              способствует подготовке и реализации новых принципов.</p>
+            <a class="aside-footer__btn btn" href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="about__list">
+          <div class="about__item about-item">
+            <div class="about-item__pict_cube">
+              <div class="about-item-pict__ellipse"></div>
+              <div class="about-item-pict__cube"></div>
+            </div>
+            <div class="about-item__content">
+              <h3 class="about-item__title h3-title">Консультация с широким активом</h3>
+              <p class="about-item__text">А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты
+                для
+                как самодостаточных, так и внешне зависимых концептуальных решений.</p>
+            </div>
+          </div>
+          <div class="about__item about-item">
+            <div class="about-item__pict_gear">
+              <div class="about-item-pict__ellipse"></div>
+              <div class="about-item-pict__gear"></div>
+            </div>
+            <div class="about-item__content">
+              <h3 class="about-item__title h3-title">В своём стремлении повысить</h3>
+              <p class="about-item__text">Качество жизни, они забывают, что сплочённость команды профессионалов
+                представляет
+                собой интересный эксперимент проверки прогресса профессионального сообщества.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects container">
+      <div class="projects__head">
+        <h2 class="projects__title h2-title">Проекты</h2>
+        <input class="projects__input" list="projects" value="Все">
+      </div>
+      <datalist id="projects">
+        <option value="Все">
+        <option value="1">
+      </datalist>
+      <div class="project__context">
+        <a href="#" class="link">
+          <div class="projects__arrow_left arrow-left"></div>
+        </a>
+        <div class="projects__img_back"></div>
+        <div class="projects__desc prj-desc">
+          <div class="prj__close"></div>
+          <h3 class="prj-desc__title h3-title">Проектирование здания X-5 Retail</h3>
+          <p class="prj-desc__text">Высшего порядка, а также выбранный нами инновационный путь предполагает независимые
+            способы реализации соответствующих условий активизации.</p>
+          <a class="prj-desc__link link" href="#">
+            О проекте
+            <div class="prj-desc__arrow"></div>
+          </a>
+        </div>
+        <a href="#" class="link">
+          <div class="projects__arrow_right arrow-right"></div>
+        </a>
+      </div>
+      <div class="projects__statistic prj-stat">
+        <div class="prj-stat__head">
+          <div class="prj-stat__img_15"></div>
+          <div class="prj-stat__head_block">
+            <p class="prj-stat__title">лет опыта</p>
+            <p class="prj-stat__text">Команды профессионалов представляет собой интересный эксперимент для сообщества.
+            </p>
+            <a href="#" class="prj-stat__btn btn_orange">Презентация о компании</a>
+          </div>
+        </div>
+        <div class="prj-stat__data prj-stat-data">
+          <div class="prj-stat__left">
+            <div class="prj-stat__block_1">
+              <p class="prj-stat__title prj-stat-data__title">>3 000</p>
+              <p class="prj-stat__text prj-stat-data__text">Реализованных проектов</p>
+            </div>
+            <div class="prj-stat__block_2">
+              <p class="prj-stat__title prj-stat-data__title">125</p>
+              <p class="prj-stat__text prj-stat-data__text">Подрядов за год</p>
+            </div>
+          </div>
+          <div class="prj-stat__right">
+            <div class="prj-stat__block_1">
+              <p class="prj-stat__title prj-stat-data__title">576</p>
+              <p class="prj-stat__text prj-stat-data__text">Запатентованых решений</p>
+            </div>
+            <div class="prj-stat__block_2">
+              <p class="prj-stat__title prj-stat-data__title">80</p>
+              <p class="prj-stat__text prj-stat-data__text">Партнёров</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work container">
+      <h2 class="work__title h2-title">
+        Как мы работаем
+      </h2>
+      <ul class="work__list">
+        <li class="link work__item work__item_active"><a href="#">1 шаг</a></li>
+        <li class="link work__item"><a href="#">2 шаг</a></li>
+        <li class="link work__item"><a href="#">3 шаг</a></li>
+        <li class="link work__item"><a href="#">4 шаг</a></li>
+      </ul>
+      <div class="work__content">
+        <div class="work__desc work-desc">
+          <h3 class="work-desc__title h3-title">
+            Проводим консультацию
+          </h3>
+          <p class="work-desc__text">Влечет за собой процесс внедрения и модернизации приоритизации разума над
+            эмоциями. В рамках
+            спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены
+            соответствующими инстанциями. А также
+            представители современных социальных резервов, инициированные исключительно синтетически, ограничены
+            исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных
+            источников, современные исследования
+            подвергнуты целой серии независимых исследований. Кстати,<span class="work-desc__text_space">&nbsp;</span> стремящиеся вытеснить традиционное
+            производство,
+            нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
+            разумеется, призваны к ответу.</p>
+          <div class="work-desc__btn">
+            <a href="#" class="work-desc__btn-left btn_orange">Подробнее</a>
+            <a href="#" class="work-desc__btn-right">Договор</a>
+          </div>
+        </div>
+        <div class="work__img"></div>
+      </div>
+    </section>
+
+    <section class="reviews container">
+      <h2 class="reviews__title h2-title">
+        Отзывы
+      </h2>
+      <div class="reviews__context">
+        <a href="#" class="link">
+          <div class="reviews__arrow_left arrow-left"></div>
+        </a>
+        <div class="reviews__usercard reviews-usercard">
+          <div class="reviews-usercard__quotes"></div>
+          <div class="reviews-usercard__head">
+            <div class="reviews-usercard__photo"></div>
+            <div class="reviews-usercard__user">
+              <div class="reviews-usercard__name">
+                Александр Ким
+              </div>
+              <div class="reviews-usercard__company">
+                ООО “Инжсистстрой”
+              </div>
+            </div>
+          </div>
+          <p class="reviews-usercard__desc">
+            Каждый из нас понимает очевидную вещь: сплочённость команды профессионалов обеспечивает широкому кругу
+            (специалистов) участие в формировании.
+          </p>
+        </div>
+        <a href="#" class="link">
+          <div class="reviews__arrow_right arrow-right"></div>
+        </a>
+      </div>
+
+    </section>
+
+    <section class="questions container">
+      <ul class="questions__list">
+        <li class="questions__item">
+          <div class="questions-item__border"></div>
+          <h2 class="questions__title h2-title">
+            Часто задаваемые вопросы
+          </h2>
+        </li>
+        <li class="questions__item questions-item">
+          <div class="questions-item__border"></div>
+          <h3 class="questions-item__title h3-title">
+            <a href="#" class="questions-item__link link">Из чего формируется конечная стоимость проекта?</a>
+          </h3>
+          <div class="questions__control"></div>
+        </li>
+        <li class="questions__item questions-item">
+          <div class="questions-item__border"></div>
+          <h3 class="questions-item__title h3-title">
+            <a href="#" class="questions-item__link link">У меня есть свой проект. Сможем ли мы его доработать <span
+                class="questions-item__slash_grey">/</span> реализовать?</a>
+          </h3>
+          <div class="questions__control"></div>
+        </li>
+        <li class="questions__item questions-item">
+          <div class="questions-item__border"></div>
+          <h3 class="questions-item__title h3-title">
+            <a href="#" class="questions-item__link link">Я выбираю между разными компаниями. В чём ваше отличие?</a>
+          </h3>
+          <div class="questions__control"></div>
+        </li>
+        <li class="questions__item questions-item">
+          <div class="questions-item__border"></div>
+          <h3 class="questions-item__title h3-title">
+            <a href="#" class="questions-item__link link">Могу ли я делегировать вам работу <span
+                class="questions-item__slash_grey">/</span> согласование с подрядчиком <span
+                class="questions-item__slash_grey">/</span> организацией?</a>
+          </h3>
+          <div class="questions__control"></div>
+        </li>
+        <li class="questions__item questions-item">
+          <div class="questions-item__border"></div>
+          <h3 class="questions-item__title h3-title">
+            <a href="#" class="questions-item__link link">Могу ли я вернуть деньги на каком-либо из этапов работ?</a>
+          </h3>
+          <div class="questions__control"></div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer__left footer-left">
+      <img class="footer-left__logo" src="/img/logo-footer.png" alt="logo">
+      <p class="footer-left__text">Высокий уровень вовлечения представителей целевой аудитории является четким
+        доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить
+        значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу
+        (специалистов) участие в формировании стандартных подходов.</p>
+      <ul class="footer-left__list">
+        <li class="footer-left__item">
+          <a href="#"><img class="footer-left__social" src="/img/fb.png" alt="facebook"></a>
+        </li>
+        <li class="footer-left__item">
+          <a href="#"><img class="footer-left__social" src="/img/vk.png" alt="vk"></a>
+        </li>
+        <li class="footer-left__item">
+          <a href="#"><img class="footer-left__social" src="/img/instagram.png" alt="instagram"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__center">
+      <form class="footer__form form" action="#">
+        <h2 class="form__title h2-title">Оставить заявку</h2>
+        <input class="form__input form__input_fio item_outline_none" type="text" placeholder="Фамилия, имя и отчество*">
+        <input class="form__input item_outline_none" type="email" placeholder="E-mail*">
+        <textarea class="form__input form__message item_outline_none" placeholder="Сообщение"></textarea>
+        <div class="form__foter">
+          <a class="form__btn btn_orange" href="#">Отправить данные</a>
+          <label class="form__label">
+            <input class="form__checkbox item_outline_none" type="checkbox" name="consent" checked>
+            Согласен на обработу данных
+          </label>
+        </div>
+      </form>
+    </div>
+    <div class="footer__right">
+      <div class="footer-right__logo"></div>
+      <nav class="footer__nav footer-nav">
+        <a href="#1" class="footer-nav__link link">О нас</a>
+        <a href="#2" class="footer-nav__link link">Проекты</a>
+        <a href="#3" class="footer-nav__link link">Отзывы</a>
+        <a href="#4" class="footer-nav__link link">Договор оферты</a>
+        <a href="#5" class="footer-nav__link link">Договор подряда</a>
+        <a href="#6" class="footer-nav__link link"></a>
+        <a href="#7" class="footer-nav__link link">Партнёрское соглашение</a>
+      </nav>
+      <ul class="footer-right__list">
+        <li class="footer-right__item">
+          <a href="#"><img class="footer-right__social" src="/img/fb.png" alt="facebook"></a>
+        </li>
+        <li class="footer-right__item">
+          <a href="#"><img class="footer-right__social" src="/img/vk.png" alt="vk"></a>
+        </li>
+        <li class="footer-right__item">
+          <a href="#"><img class="footer-right__social" src="/img/instagram.png" alt="instagram"></a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+</body>
+
+</html>
