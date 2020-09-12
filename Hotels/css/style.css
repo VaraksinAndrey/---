@@ -301,26 +301,31 @@ ul {
 }
 
 .services-item {
-	position: relative;
+	height: 355px;
+}
+
+.services-item-content {
 	display: flex;
-	align-items: flex-end;
 	width: 572px;
 	height: 325px;
+	flex-direction: column;
+	justify-content: space-between;
 	background-color: #fff;
 	border-radius: 12px;
 	margin-bottom: 24px;
-	padding-left: 45px;
-	padding-right: 105px;
 }
 
 .services-item-img {
-	position: absolute;
-	top: 0;
-	left: 0;
+	width: 572px;
+	height: 165px;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .services-desc {
-	margin-bottom: 35px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+	padding-right: 100px;
 }
 
 .services-desc-link {
@@ -337,7 +342,7 @@ ul {
 }
 
 .services-desc-text {
-	padding-right: 15px;
+	max-width: 400px;
 }
 
 .advantages {
@@ -345,22 +350,17 @@ ul {
 }
 
 .advantages-item {
+	height: 299px;
+}
+
+.advantages-item-content {
 	width: 275px;
 	height: 275px;
 	background-color: #fff;
 	border-radius: 12px;
-	margin-bottom: 24px;
 	padding-left: 44px;
 	padding-right: 44px;
 	padding-top: 44px;
-}
-
-.advantages-item:nth-child(2n) {
-	margin-left: 23px;
-}
-
-.advantages-item:nth-child(4n+3) {
-	margin-left: 22px;
 }
 
 .placing {
@@ -368,7 +368,10 @@ ul {
 }
 
 .placing-item {
-	position: relative;
+	height: 466px;
+}
+
+.placing-item-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -376,29 +379,23 @@ ul {
 	height: 441px;
 	background-color: #fff;
 	border-radius: 12px;
-	margin-bottom: 25px;
-	padding-left: 44px;
-	padding-right: 44px;
 	padding-bottom: 43px;
 }
 
 .placing-img {
-	position: absolute;
-	top: 0;
-	left: 0;
+	width: 373px;
+	height: 217px;
+	margin-bottom: auto;
 }
 
 .placing-text {
-	margin-bottom: 17px;
+	padding-left: 44px;
+	padding-right: 44px;
 }
 
 .placing-text-first-line {
 	display: flex;
-}
-
-.placing-text-first-line>:last-child {
-	position: absolute;
-	right: 44px;
+	justify-content: space-between;
 }
 
 .text-price-grey {
@@ -420,13 +417,16 @@ ul {
 
 .placing-btn {
 	padding: 0;
+	margin-left: 44px;
+	margin-top: 20px;
 	width: 100px;
 	height: 41px;
 	background-color: #fff;
 	color: #cc9933;
 }
 
-.col-lg-4:last-child > .placing-item {
+.placing-item:last-child .placing-item-content {
+	position: relative;
 	background: url(../img/hotel-all.png) no-repeat;
 	padding-left: 38px;
 	padding: 37px;
